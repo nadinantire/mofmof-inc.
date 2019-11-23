@@ -1,0 +1,1 @@
+json.array! @propeties, partial: 'propeties/propety', as: :propety

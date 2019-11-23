@@ -1,0 +1,1 @@
+json.partial! "propeties/propety", propety: @propety
