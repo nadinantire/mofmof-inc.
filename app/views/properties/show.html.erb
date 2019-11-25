@@ -1,0 +1,51 @@
+
+<h1> Property Details</h1>
+<p id="notice"><%= notice %></p>
+
+<p>
+  Property: <%= @property.propert %>
+</p>
+
+<p>
+ Rent: <%= @property.rent %>yern
+</p>
+
+<p>
+  Address: <%= @property.address %>
+</p>
+
+<p>
+Building age: <%= @property.building_age %>
+</p>
+
+<p>
+  Remarks:<%= @property.remarks %>
+</p>
+<hr>
+<b> Nearest station 1</b>
+<p>
+Name of railway line:<%= @property.namer %>
+</p>
+
+<p>
+ Station name: <%= @property.station %>
+</p>
+
+<p>
+  How many minutes walk: <%= @property.minut %>/mins
+</p>
+<b> Nearest station 2</b>
+<p>
+ Name of railway line:<%= @property.namer1 %>
+</p>
+
+<p>
+ Station name: <%= @property.station1 %>
+</p>
+
+<p>
+  How many minutes walk:<%= @property.minut1 %>mins
+</p>
+
+<%= link_to 'Edit_propety_information', edit_property_path(@property) %> |
+<%= link_to 'Back', properties_path %>

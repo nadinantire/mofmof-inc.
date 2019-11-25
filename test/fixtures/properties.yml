@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  propert: MyString
+  rent: 1
+  address: MyText
+  building_age: 1
+  remarks: MyText
+  namer: MyString
+  station: MyString
+  minut: 1
+  namer1: MyString
+  station1: MyString
+  minut1: 1
+
+two:
+  propert: MyString
+  rent: 1
+  address: MyText
+  building_age: 1
+  remarks: MyText
+  namer: MyString
+  station: MyString
+  minut: 1
+  namer1: MyString
+  station1: MyString
+  minut1: 1
